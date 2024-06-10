@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Exemplo</title>
+    <!-- Bootstrap CSS (opcional) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="login.css" />
+    <!-- Normalize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <!-- Script -->
+    <script src="/scripts/script.js"></script>
+  </head>
+
+  <body>
+    <div class="container-principal">
+      <!-- Aviso -->
+      <div class="bloco-aviso">
+        <p><span>Aviso:</span> O orkut.br não tem vínculo com o Google.</p>
+      </div>
+      <!-- Container principal -->
+      <div class="main-content-orkut">
+        <!-- Bloco Esquerdo -->
+        <div class="left-box">
+          <img src="./img/logo.png" alt="Orkut Logo" />
+          <p>
+            <strong>Conecta-se</strong> aos seus amigos e familiares usando
+            recados e mensagens instantâneas
+          </p>
+          <p>
+            <strong>Conheça</strong> novas pessoas através de amigos de seus
+            amigos e comunidades
+          </p>
+          <p>
+            <strong>Compartilhe</strong> seus vídeos, fotos e paixões em um só
+            lugar
+          </p>
+        </div>
+        <div class="right-column">
+          <!-- Bloco Direito -->
+          <div class="area-de-login">
+            <p>Acesse o <span>orkut.br</span> com a sua conta</p>
+            <form>
+              <div class="form-group email">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="form-group password">
+                <label for="senha" class="form-label">Senha:</label>
+                <input type="password" class="form-control" id="senha" required />
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="salvarInfo" />
+                <label for="salvarInfo" class="form-check-label">Salvar as minhas informações neste computador.</label>
+              </div>
+              <div>
+                <p>
+                  <a href="#" class="text-muted">Não use em computadores públicos.</a>
+                  <br />
+                  <a href="#" class="text-muted">[?]</a>
+                </p>
+              </div>
+              <button type="button" class="btn-login btn btn-primary">
+                Login
+              </button>
+              <p>
+                <a class="sem-acesso" href="#">Não consegue acessar a sua conta?</a>
+              </p>
+            </form>
+          </div>
+          <!-- Bloco Inferior Direito -->
+          <div class="entrar-ja">
+            <p>Ainda não é membro?</p>
+            <h2>
+              <a href="#" class="text-primary">ENTRAR JÁ</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rodapé -->
+      <footer class="footer">
+        <p>
+          © 2020 Orkut.br - <a href="#">Sobre o Orkut.br</a> -
+          <a href="#">Centro de segurança</a> - <a href="#">Privacidade</a> -
+          <a href="#">Termos</a> - <a href="#">Contato</a>
+        </p>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
