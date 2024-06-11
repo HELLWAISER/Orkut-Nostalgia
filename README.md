@@ -1,8 +1,9 @@
-# Orkut Clone Project (link no rodapé)
+## Orkut Clone Project 
+####(link no rodapé - ps: Em desenvolvimento)
 
-Este projeto é uma recriação das páginas do Orkut como um exercício de aprendizado. O objetivo é praticar habilidades de desenvolvimento web, incluindo HTML, CSS, JavaScript e tornar as páginas responsivas para diferentes dispositivos.
+Este projeto é uma recriação das páginas do Orkut como um exercício de aprendizado. O objetivo é praticar habilidades de desenvolvimento web, incluindo HTML, CSS, JavaScript e tornar as páginas responsivas para diferentes dispositivos, algo que na época ainda não se era aplicado (responsividade).
 
-## Responsividade
+## Responsividade (Em desenvolvimento)
 
 As páginas deste projeto foram desenvolvidas com foco na responsividade, utilizando técnicas de design responsivo para garantir que a interface se adapte bem a diferentes tamanhos de tela, desde dispositivos móveis até desktops. Abaixo estão algumas das abordagens e códigos utilizados para alcançar isso.
 
@@ -15,11 +16,11 @@ Utilizamos media queries para aplicar estilos específicos com base na largura d
 
 
 
-###Contribuições
-###Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
+### Contribuições
+### Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
 
-###Licença
-##Este projeto está licenciado sob a licença MIT.
+### Licença
+## Este projeto está licenciado sob a licença MIT.
 
 ##### link para visualização
 ##### https://hellwaiser.github.io/Orkut-Nostalgia/
