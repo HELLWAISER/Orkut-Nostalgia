@@ -1,0 +1,206 @@
+body {
+  background-color: #d4ddee;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.nav-container {
+  background: rgb(107,152,208);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+}
+
+
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.links li {
+margin-right: 20px;
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  border: none;
+  margin-right: 5px;
+}
+
+.lupa {
+  background: #587ea4;
+  border: none;
+}
+
+.search-form {
+  background: #587ea4;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logout {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+/* left-column  */
+
+.main-wrapper {
+  max-width: 1200px; /* Define a largura máxima do contêiner */
+  margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 150px;
+  margin-left: 5px;
+  margin-top: 15px;
+  border-radius: 7px;
+  flex-direction: column;
+}
+
+.left-column, .center-column, .right-column {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+  flex: 1;
+  margin-right: 20px;
+  background: #587ea4;
+}
+
+
+.profile-card .img-perfil {
+  height: 160px;
+  width: 150px;
+}
+
+.profile-card img {
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.side-nav li {
+  margin-bottom: 5px;
+  background-color: #f2f7fc;
+  border-radius: 5px;
+  border-radius: 11px solid gray;
+  align-items: center;
+  margin: 0; 
+  padding: 0; 
+}
+
+.side-nav li > a {
+  text-decoration: none;
+  display: flex; 
+  border: 1px soliod gray;
+  margin-left: 5px;
+  }
+
+
+  .side-nav img {
+    margin-right: 10px;
+    width: 22px; 
+    height: 22px; 
+}
+
+.side-nav {
+  background-color: #f2f7fc;
+}
+
+
+.side-nav ul li > a {
+  border: 0.5px solid rgb(226, 226, 226);
+  padding: 2px;
+  gap: 0;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

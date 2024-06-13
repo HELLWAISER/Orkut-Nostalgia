@@ -168,7 +168,13 @@ input {
 .area-de-login .btn-login {
   display: flex;
   margin-left: 95px;
+  
 }
+
+.area-de-login .btn-login a {
+  text-decoration: none;
+}
+
 
 .area-de-login p>.text-muted {
   display: inline;
