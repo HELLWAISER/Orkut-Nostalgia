@@ -1,211 +1,406 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout Exemplo</title>
-    <!-- Bootstrap CSS (opcional) -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="perfil.css" />
-    <!-- Normalize CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
-    <!-- Script -->
-    <script src="/scripts/script.js"></script>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Layout Exemplo</title>
+		<!-- Bootstrap CSS (opcional) -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="perfil.css" />
+		<!-- Normalize CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+		<!-- Script -->
+		<script src="/scripts/scriptCentral.js"></script>
+		<script src="/scripts/script.js"></script>
+	</head>
 
-  <body>
-
-    <header class="header">
-      <nav class="nav-container">
-        <div class="nav-left">
-          <img src="/img/logo-header.png" alt="logo" class="logo">
-          <ul class="links">
-            <li><a href="">início</a></li>
-            <li><a href="">Página de recados</a></li>
-            <li><a href="">Amigos</a></li>
-            <li><a href="">Comunidades</a></li>
-          </ul>
-        </div>
-
-        <div class="nav-right">
-          <a href="#" class="logout">Sair</a>
-          <form class="search-form" action="#" method="get">
-            <input type="text">
-            <button type="submit" class="lupa">🔍</button>
-          </form>
-        </div>
-      </nav>
-    </header>
-
-
-
-    <div class="main-wrapper">
-      <main class="main-container">
-        <aside left-column>
-          <div class="profile-card">
-            <img src="/img/pimpa.jpg" class="img-perfil" alt="minha foto">
-            <hr>
-            <p>Evelin Binati</p>
-            <p>Brito</p>
-            <p>Feminino,</p>
-            <p>Casado(a)</p>
-            <p>São Paulo, Brasil</p>
-            <a href="#"> (editar) </a>
-            <hr>
-
-            <li>
-              <a href="#">editar perfil
-                <img src="icons/perfil.png" alt="editar perfil">
-              </a>
-            </li>
-            <hr>
-          </div>
-
-
-          <nav class="side-nav">
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="icons/perfil.png" alt="Perfil"> perfil
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/recados.png" alt="Recados"> recados
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/album.png" alt="Álbum"> álbum
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/vídeos.png" alt="Vídeos"> vídeos
-                </a>
-              </li>
-            </ul>
-
-            
-
-
-
-
-          </nav>
-
-          <hr>
-
-          <nav class="side-nav">
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="icons/perfil.png" alt="Perfil"> perfil
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/recados.png" alt="Recados"> recados
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/album.png" alt="Álbum"> álbum
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/vídeos.png" alt="Vídeos"> vídeos
-                </a>
-              </li>
-            </ul>
-
-
-          </nav>
-
-          <hr>
-
-          <nav class="side-nav">
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="icons/perfil.png" alt="Perfil"> perfil
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/recados.png" alt="Recados"> recados
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/album.png" alt="Álbum"> álbum
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="icons/vídeos.png" alt="Vídeos"> vídeos
-                </a>
-              </li>
-            </ul>
-
-
-        </aside>
-      </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- Rodapé -->
-
-
-
-      <!--
-        <footer class="footer">
-        <p>
-          © 2020 Orkut.br - <a href="#">Sobre o Orkut.br</a> -
-          <a href="#">Centro de segurança</a> - <a href="#">Privacidade</a> -
-          <a href="#">Termos</a> - <a href="#">Contato</a>
-        </p>
-      </footer>
-      </div>
-  
-      
-       -->
-    </div>
-
-
-
-    <!-- Bootstrap JS (opcional) -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.min.js"></script>
-  </body>
+	<body>
+		<header class="header">
+			<nav class="nav-container">
+				<div class="nav-left">
+					<img src="/img/logo-header.png" alt="logo" class="logo">
+					<ul class="links">
+						<li><a href="">Início</a></li>
+						<li><a href="">Página de recados</a></li>
+						<li><a href="">Amigos</a></li>
+						<li><a href="">Comunidades</a></li>
+					</ul>
+				</div>
+				<div class="nav-right">
+					<a href="#" class="logout">Sair</a>
+					<form class="search-form" action="#" method="get">
+						<input type="text">
+						<button type="submit" class="lupa">🔍</button>
+					</form>
+				</div>
+			</nav>
+		</header>
+		<div class="main-wrapper">
+			<div class="main-container">
+				<div class="left-column">
+					<div class="profile-card">
+						<img src="/img_friends/vitor-eu-2.jpg" class="img-perfil" alt="minha foto">
+						<hr>
+						<div class="info">
+							<p class="my-name">Vitor Rodrigues Gomes</p>
+							<p>masculino,</p>
+							<p>Casado(a)</p>
+							<p>São Paulo, Brasil</p>
+							<a href="#">(<span class="edit">editar</span>)</a>
+						</div>
+						<hr>
+						<ul>
+							<li>
+								<a href="#">
+									<img src="icons/perfil.png" alt="editar perfil"> editar perfil
+								</a>
+							</li>
+						</ul>
+						<hr>
+					</div>
+					<nav class="side-nav">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="icons/perfil.png" alt="Perfil" class="texto"> perfil
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/recados.png" alt="Recados"> recados
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/album.png" alt="Álbum"> álbum
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/vídeos.png" alt="Vídeos"> vídeos
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<hr>
+					<nav class="side-nav">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="icons/feed.png" alt="feed"> sobre esportes
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/brain.png" alt="brain"> games
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<hr>
+					<nav class="side-nav">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="icons/feeds-blue.png" alt="Perfil"> perfil
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/listas.png" alt="listas"> listas
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/mensagens.png" alt="mensagens"> mensagens
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/depoimentos.png" alt="Vídeos"> depoimentos
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="icons/config.png" alt="Vídeos"> configurações
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<hr>
+					<div class="invite-friends">
+						<h2>convidar amigos</h2>
+						<div class="back-invite-friends">
+							<form action="#" method="post">
+								<input type="text" placeholder="e-mails">
+								<div class="buttons">
+									<button type="submit" class="add-button">enviar</button>
+									<a href="#" class="more-link">more »</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="center-column">
+					<h2>Vitor Rodrigues Gomes</h2>
+					<p><a href="#">Início</a> > Meu perfil</p>
+					<hr class="hr1">
+					<div class="profile-info">
+						<p>Quem vê meu perfil assim?</p>
+						<div class="select-container">
+							<select id="perfil">
+								<option value="só eu">só eu</option>
+								<option value="amigos">amigos</option>
+								<option value="amigos de amigos">amigos de amigos</option>
+							</select>
+						</div>
+					</div>
+					<hr class="hr2">
+					<!--Início barra de detalhes -->
+					<div class="details-bar">
+						<div class="detail-item recados">
+							<p>recados</p>
+							<a href="#" class="recados-link">
+								<img src="/icons/rec-topo.png" alt="recados" class="recados-img">
+								<span class="recados-text">19.121</span>
+							</a>
+						</div>
+						<div class="detail-item fotos">
+							<p>fotos</p>
+							<a href="#" class="fotos-link">
+								<img src="/icons/album-topo.png" alt="fotos" class="fotos-img">
+								<span class="fotos-text">1</span>
+							</a>
+						</div>
+						<div class="detail-item videos">
+							<p>vídeos</p>
+							<a href="#" class="videos-link">
+								<img src="/icons/videos-topo.png" alt="vídeos" class="videos-img">
+								<span class="videos-text">5</span>
+							</a>
+						</div>
+						<div class="detail-item fas">
+							<p>fãs</p>
+							<a href="#" class="fas-link">
+								<img src="/icons/fans-topo.png" alt="fãs" class="fas-img">
+								<span class="fas-text">242</span>
+							</a>
+						</div>
+						<div class="detail-item confiavel">
+							<p>confiável</p>
+							<a href="#" class="confiavel-link">
+								<img src="/icons/confiavel.png" alt="confiável" class="confiavel-img">
+							</a>
+						</div>
+						<div class="detail-item legal">
+							<p>legal</p>
+							<a href="#" class="legal-link">
+								<img src="/icons/legal.png" alt="legal" class="legal-img">
+							</a>
+						</div>
+						<div class="detail-item sexy">
+							<p>sexy</p>
+							<a href="#" class="sexy-link">
+								<img src="/icons/sexy.png" alt="sexy" class="sexy-img">
+							</a>
+						</div>
+					</div>
+					<hr class="hr3">
+					<!-- texto cental / social / profissional-->
+					<div class="center-box">
+						<div class="tab-buttons">
+							<button class="tab-button" onclick="showSection('social')">Social</button>
+							<button class="tab-button" onclick="showSection('pessoal')">Pessoal</button>
+							<hr class="hr-tab-content">
+						</div>
+						<!-- texto cental / social -->
+						<div id="social" class="tab-content">
+							<p><span class="social1">Relacionamento : </span><span class="resposta"> casado(a)</span></p>
+							<p><span class="social2">Aniversário : </span>maio 17</p>
+							<p><span class="social3">Idade : </span>38</p>
+							<p><span class="social4">Idiomas : </span> Português, Inglês intermediário 1</p>
+							<p><span class="social5">Interesses no Orkut :</span> computação | programação e afins</p>
+							<p><span class="social6">Quem sou eu : </span> "Se você quiser alguém em quem confiar... Confie em si
+								<span class="social61">mesmo!" Em ninguém mais...</span>
+							</p>
+							<p><span class="social7">Github : </span><a href="https://github.com/HELLWAISER" target="_blank"
+									class="social-p">https://github.com/HELLWAISER</a></p>
+							<p><span class="social8"> <br> </span></p>
+							<p><span class="social9"> <br> </span></p>
+							<p><span class="social10"> <br> </span></p>
+							<p><span class="social11"> <br> </span></p>
+						</div>
+						<!-- texto cental / profissional-->
+						<div id="pessoal" class="tab-content" style="display:none;">
+							<p><span class="pessoal1">Filhos : </span><span class="resposta"> sim</span></p>
+							<p><span class="pessoal2">Etnia : </span> branco</p>
+							<p><span class="pessoal3">Visão politica : </span>libertário</p>
+							<p><span class="pessoal4">Humor : </span>extrovertido/extravagante, seco/sarcástico, inteligente/sagaz,
+								simpático</p>
+							<p><span class="pessoal5">Orientação sexual :</span> heterossexual</p>
+							<p><span class="pessoal6">Fumo : </span> Não</p>
+							<p><span class="pessoal7">Bebo : </span> Não</p>
+							<p><span class="pessoal8">Animais de estimação : </span> Não tenho</p>
+							<p><span class="pessoal9">Esilo musical : </span> Power metal | Heavy metal sinfônico</p>
+							<p><span class="pessoal10">Bandas : </span>Helloween, Gammaray, Stratovarius, Nightwish, Savatage</p>
+							<p><span class="pessoal11"> <br> </span></p>
+							<p><span class="pessoal11"> <br> </span></p>
+						</div>
+					</div>
+				</div>
+				<!-- Bloco amigos -->
+				<div class="right-columns">
+					<div class="right-columns-friends">
+						<h4>meus amigos <span>(230)</span></h4>
+						<div class="friend-list">
+							<div class="box-img">
+								<img src="/img_friends/alaice.png" alt="foto-alaice">
+								<a href="#">
+									<p>Alaice (421)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/angelica.png" alt="default image">
+								<a href="#">
+									<p>Angélica (89)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/evelin1.jpg" alt="default image">
+								<a href="#">
+									<p>Pimpa (78)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/fabio.png" alt="default image">
+								<a href="#">
+									<p>Fábio (102)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/rafael.png" alt="default image">
+								<a href="#">
+									<p>Rafael (47)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/rafaela.png" alt="default image">
+								<a href="#">
+									<p>Rafaela (45)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/evelin2.jpg" alt="default image">
+								<a href="#">
+									<p>Evelin (77)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/vitor-eu.png" alt="default image">
+								<a href="#">
+									<p>Victor (230)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_friends/alaice.png" alt="default image">
+								<a href="#">
+									<p>Lalá (54)</p>
+								</a>
+							</div>
+							<hr class="hr-amigos">
+							<div class="search-friends">
+								<a href="#" target="_blank">
+									<p>ver todos</p>
+								</a>
+								<button>gerenciar</button>
+							</div>
+						</div>
+					</div>
+					<!-- Bloco comunidades -->
+					<div class="right-columns-communities">
+						<h4>minhas comunidades <span>(122)</span></h4>
+						<div class="friend-list">
+							<div class="box-img">
+								<img src="/img_comunidades/img1.png" alt="foto-comunidade-1">
+								<a href="#">
+									<p>Eu odeio acordade cedo (47421)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img2.png" alt="foto-comunidade-2">
+								<a href="#">
+									<p>Colho flores e o Tony ramos (5289)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img3.png" alt="foto-comunidade-3">
+								<a href="#">
+									<p>Sou legal, n estou te dando mole (7258)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img4.png" alt="foto-comunidade-4">
+								<a href="#">
+									<p>Pareço estranha, mas sou legal (10252)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img5.png" alt="foto-comunidade-5">
+								<a href="#">
+									<p>Tocava e saia correndo (4257)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img6.png" alt="foto-comunidade-6">
+								<a href="#">
+									<p>Odeio esperar no MSN (4445)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img7.png" alt="foto-comunidade-7">
+								<a href="#">
+									<p>Deus disse desce e arrasa (1177)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img8.png" alt="foto-comunidade-8">
+								<a href="#">
+									<p>Vegano de fachada (1230)</p>
+								</a>
+							</div>
+							<div class="box-img">
+								<img src="/img_comunidades/img9.png" alt="foto-comunidade-9">
+								<a href="#">
+									<p>tecnologia (3524)</p>
+								</a>
+							</div>
+							<hr class="hr-amigos">
+							<div class="search-friends">
+								<a href="#" target="_blank">
+									<p>ver todos</p>
+								</a>
+								<button>gerenciar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Rodapé -->
+			<footer class="footer">
+				<p>
+					© 2020 Orkut.br - <a href="#">Sobre o Orkut.br</a> -
+					<a href="#">Centro de segurança</a> - <a href="#">Privacidade</a> -
+					<a href="#">Termos</a> - <a href="#">Contato</a>
+				</p>
+			</footer>
+			<!-- Script -->
+			<script src="/scripts/scriptCentral.js"></script>
+			<script src="/scripts/script.js"></script>
+			<!-- Bootstrap JS (opcional) -->
+			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+	</body>
 
 </html>

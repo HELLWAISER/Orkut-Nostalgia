@@ -215,7 +215,8 @@ input {
 
 /* footer */
 .footer {
-  background-color: #bcceea;
+   background-color: #e3220d;
+  /*background-color: #bcceea;*/
   height: 30px;
   display: inline-flex;
   justify-content: center;
