@@ -672,7 +672,6 @@ a:hover .edit {
 /*========================================================================================*/
 /* footer */
 .footer {
-  display: flex;
  background-color: #bcceea;
  height: 35px;
  display: inline-flex;
